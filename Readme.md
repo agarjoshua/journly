@@ -1,10 +1,14 @@
 This is a simple React Native Application with a django backend whipped up in a couple of hours.
-It fatures a react Native app that is ran by the command:
+It features a react Native app that is ran by the command:
+on the journly directory
 
-yarn start expo
+yarn add
+yarn start expo 
 
 and a django app run by the command:
+(creating a virtual environment and launching into it)
 
+pip install -r requirements.txt
 python manage.py runserver 192.168.1.7:8000
 
 Note:
